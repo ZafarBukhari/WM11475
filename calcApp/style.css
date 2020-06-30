@@ -1,0 +1,128 @@
+body{
+    font-size: 25px !important;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px !important;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #6e6e6d;
+    font-size: 15px !important;
+    padding: 15px !important;
+}
+
+.head{
+    @font-face {
+        font-family: myFirstFont;
+        src: url(digital-7.ttf);
+    }    
+    margin-left: 10px !important;
+    text-align: center;
+}
+
+.sign{
+    background-color: #868686;
+    color: white;
+}
+
+.signEqua {
+    color: white;
+    background-color: #d46038;
+}
+
+#resultContainer{
+    @font-face {
+        font-family: myFirstFont;
+        src: url(digital-7.ttf);
+    }    
+    border: 3px solid #3a352f;
+    text-align: right;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: #cccdb3;
+}
+
+.main {
+    /* background-color: #e4e3e2; */
+    background-color: #5F9EA0;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+    padding: 15px;
+    border-radius: 10px;
+    padding-bottom: 35px !important;
+    text-align: center !important;
+}
+
+.resultBox {
+    width: 86%;
+    color: black;
+    padding: 10px;
+    margin-left: 3px !important;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-size: 25px !important;
+    height: 35px !important;
+}
+
+.adBtn {
+    width: 80px !important;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.clear {
+    width: 138px !important;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.numBtn {
+    width: 66px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.halfBtn {
+    width: 30%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.clear{
+    width: 30% !important;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.fullBtn {
+    width: 86%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.num {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.topBtn {
+    width: 34%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+
+    background-color: #868686;
+    color: white;
+}
